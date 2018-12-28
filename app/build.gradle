@@ -33,6 +33,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(':AliyunSnap:snap_demo')
 
-    // 以下两个依赖都是必须的
+    // 以下gson个依赖都是必须的
     implementation 'com.google.code.gson:gson:2.8.0'
 }
