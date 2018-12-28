@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion externalCompileSdkVersion
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        minSdkVersion externalMinSdkVersion
+        targetSdkVersion externalTargetSdkVersion
+    }
+}
+
+dependencies {
+    api project(':AliyunRecorder:snap_record')
+    api project(':AliyunCrop:crop_demo')
+}

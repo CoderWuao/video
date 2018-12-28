@@ -1,0 +1,8 @@
+include ':app'
+include ':AliyunVideoSdk'
+include ':AlivcCore'
+include ':AliyunVideoCommon'
+include ':AliyunSVideoBase'
+include ':AliyunRecorder:snap_record'
+include ':AliyunCrop:crop_demo'
+include ':AliyunSnap:snap_demo'
